@@ -1,0 +1,12 @@
+{
+  "name": "@microverse-network/tracker",
+  "version": "0.0.0",
+  "bin": {
+    "microverse-tracker": "bin/tracker.js"
+  },
+  "dependencies": {
+    "@microverse-network/core": "0.0.0",
+    "@microverse-network/database": "0.0.0",
+    "commander": "^2.20.0"
+  }
+}
