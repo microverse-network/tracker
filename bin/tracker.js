@@ -7,7 +7,7 @@ const pkg = require('../package.json')
 program
   .version(pkg.version)
   .description(pkg.description)
-  .option('--port <port>', 'port', Number)
+  .option('-p, --port <port>', 'port', 80)
   .parse(process.argv)
 
 if (!program.port) {
